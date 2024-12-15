@@ -28,7 +28,7 @@ scene.add(gridHelper);
 // Load GLB Model
 const loader = new THREE.GLTFLoader();
 loader.load(
-  './models/Body 3.glb', // Ensure this path matches your GitHub Pages structure
+  './models/Body3.glb', // Ensure this path matches your GitHub Pages structure
   function (gltf) {
     const model = gltf.scene;
     model.position.set(0, 0, 0);
